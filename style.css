@@ -141,7 +141,7 @@ margin-right: 30px;
     }
 
     form{
-        width: 55%;
+        width: 50%;
         float: left;
         margin-left: 35px;
         margin-bottom: 75px;
@@ -202,7 +202,7 @@ margin-right: 30px;
             margin-right: 50px;
             float: right;
             height: 500px;
-            width:500px;
+            width:400px;
             display: inline;
             margin-top: 200px;
         }
@@ -278,125 +278,198 @@ margin-right: 30px;
 }
         
 
-         @media screen and (max-width: 768px) {
+         @media screen and (max-width: 600px)  {
             body{
                 background: url("back.jpg") no-repeat center fixed;                            
                 background-size: cover;
             }
-        
-            .parag h1{
-                font-size: 15rem;
+            section{
+                padding: 1rem 0;
             }
-        
-            .parag h6{
-                font-size: 1.7rem;
-            }
-        
+           
             .navigation{
-                flex-direction: column;
+                font-size: 10px;
+                flex-direction: row;
+                word-spacing: 15px;
             }
-        
-            li{
-                margin: 2rem 0;
+            .icons{
+                    display: inline;
+                    font-size: 15px;
             }
         
             .nav-link{
-                font-size: 4.5rem;
+                font-size: 0.8rem;
+
             }
-        
-            .about-heading h1{
-                font-size: 8rem;
+            .pimage{
+                align-self: center;
             }
-        
-            .section-heading h1{
-                font-size: 3rem;
+            .rightImage img{
+                align-self: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
             }
-        
-            .nav-list{
-                flex-direction: initial;
+            .leftimage img{
+                align-self: center;
+                width: 100%;
+                height: auto; 
+                margin:0px 0px 0px 0px;
             }
-        
-            .icons li{
-                margin: 0 2rem;
+            .parag h1{
+                font-size: large;
+                text-align: center;
+                margin:0px 0px 0px 0px;
             }
-/*         
-            .icon-container{
-                width: 7rem;
-                height: 7rem;
+            .parag p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 0px 0px;
             }
-        
-            .icon-container i{
-                font-size: 4rem;
+
+            .eduparagraph h1{
+                font-size: large;
             }
-        
-            .timeline ul{
-                margin: 0 0 0 auto;
+            .eduparagraph p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 0px 0px;
             }
-        
-            .timeline .date::before{
-                left: -20rem;
+
+            .eduImage img{
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
             }
-        
-            .timeline .date::after{
-                left: -5.9rem;
-            } */
+            .Experp h1{
+                font-size: large;
+                text-align: center;
+            }
+            .Experp p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 0px 0px;
+            }
+            .contactImage img{
+                align-self: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
+
+            }
+            .formheading h1{
+                font-size: large;
+                text-align: center;
+            }
+            .formheading p{
+                font-size:medium;
+                text-align: center;
+            }
+
+            form{
+                align-self: center;
+                width: 70%;
+                height: auto;
+                
+            }
         }
         
     
-        /* @media screen and (max-width:600px) {
-            .menu-toggler{
-                top: 2rem;
-                right: 2rem;
+         /* @media screen and (max-width:780px) {
+            body{
+                background: url("back.jpg") no-repeat center fixed;                            
+                background-size: cover;
             }
-        
-            .landing-text h1{
-                font-size: 8rem;
+            section{
+                padding: 1rem 0;
             }
-        
-            .landing-text h6{
-                font-size: 1.4rem;
+           
+            .navigation{
+                font-size: 10px;
+                flex-direction: row;
+                word-spacing: 20px;
+            }
+            .icons{
+                    display: inline;
+                    font-size: 20px;
+                    margin-left: 30px;
             }
         
             .nav-link{
-                font-size: 3.5rem;
+                font-size: 1.0rem;
+
             }
-        
-            .about .container{
-                flex-direction: column;
+            .pimage{
+                align-self: center;
             }
-        
-            .profile-img{
-                margin: 0 0 7rem 0;
-            }
-        
-            .portfolio-item{
-                flex-direction: column;
-            }
-        
-            .portfolio-img{
-                margin: 0 0 2rem 0;
-                order: 1;
-            }
-        
-            .portfolio-description{
-                margin: 0;  
-                order: 2;
-            }
-        
-            .timeline p{
-                font-size: 1.6rem;
-            }
-        
-            .timeline .date::before{
-                font-size: 1.4rem;
-            }
-        
-            form{
+            .rightImage img{
+                align-self: center;
                 width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
             }
-        
-            .up{
-                right: 2rem;
-            } 
-        }
-         */
+            .leftimage img{
+                align-self: center;
+                width: 100%;
+                height: auto; 
+                margin:0px 0px 0px 0px;
+            }
+            .parag h1{
+                font-size: large;
+                text-align: center;
+                margin:0px 0px 0px 0px;
+            }
+            .parag p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 0px 0px;
+            }
+
+            .eduparagraph h1{
+                font-size: large;
+            }
+            .eduparagraph p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 0px 0px;
+            }
+
+            .eduImage img{
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
+            }
+            .Experp h1{
+                font-size: large;
+                text-align: center;
+            }
+            .Experp p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 0px 0px;
+            }
+            .contactImage img{
+                align-self: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
+
+            }
+            .formheading h1{
+                font-size: large;
+                text-align: center;
+            }
+            .formheading p{
+                font-size:medium;
+                text-align: center;
+            }
+
+            form{
+                align-self: center;
+                width: 80%;
+                height: auto;
+                
+            }
+        } */
