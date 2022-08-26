@@ -290,7 +290,7 @@ margin-right: 30px;
             .navigation{
                 font-size: 10px;
                 flex-direction: row;
-                word-spacing: 15px;
+                word-spacing: 10px;
             }
             .icons{
                     display: inline;
@@ -299,6 +299,105 @@ margin-right: 30px;
         
             .nav-link{
                 font-size: 0.8rem;
+
+            }
+            .pimage{
+                align-self: center;
+            }
+            .rightImage img{
+                align-self: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
+            }
+            .leftimage img{
+                align-self: center;
+                width: 100%;
+                height: auto; 
+                margin:0px 0px 0px 0px;
+            }
+            .parag h1{
+                font-size: large;
+                text-align: center;
+                margin:0px 0px 0px 0px;
+            }
+            .parag p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 10px 0px;
+            }
+
+            .eduparagraph h1{
+                font-size: large;
+            }
+            .eduparagraph p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 10px 0px;
+            }
+
+            .eduImage img{
+                align-items: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
+            }
+            .Experp h1{
+                font-size: large;
+                text-align: center;
+            }
+            .Experp p{
+                font-size:medium;
+                text-align: center;
+                margin:10px 0px 10px 0px;
+            }
+            .contactImage img{
+                align-self: center;
+                width: 100%;
+                height: auto;
+                margin:0px 0px 0px 0px;
+
+            }
+            .formheading h1{
+                font-size: large;
+                text-align: center;
+            }
+            .formheading p{
+                font-size:medium;
+                text-align: center;
+            }
+
+            form{
+                align-self: center;
+                width: 70%;
+                height: auto;
+                
+            }
+        }
+
+
+        @media screen and (max-width: 480px)  {
+            body{
+                background: url("back.jpg") no-repeat center fixed;                            
+                background-size: cover;
+            }
+            section{
+                padding: 1rem 0;
+            }
+           
+            .navigation{
+                font-size: 10px;
+                flex-direction: row;
+                word-spacing: 28px;
+            }
+            .icons{
+                    display: inline;
+                    font-size: 13px;
+                    margin: 0px 0px 0px 0px;
+            }
+        
+            .nav-link{
+                font-size: 0.7rem;
 
             }
             .pimage{
@@ -374,6 +473,15 @@ margin-right: 30px;
                 
             }
         }
+        
+    
+
+
+
+
+
+
+
         
     
          /* @media screen and (max-width:780px) {
