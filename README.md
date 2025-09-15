@@ -65,16 +65,34 @@ npm run build
 npm start
 ```
 
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Deploy with zero configuration
+
+### Deploy to Netlify
+1. Build the project: `npm run build`
+2. Deploy the `out` folder to Netlify
+
+### Deploy to GitHub Pages
+1. Enable GitHub Pages in repository settings
+2. Set source to GitHub Actions
+3. Use the provided workflow file
+
 ## 📱 Contact
 
 - **Email**: [abdullahyaqub555@gmail.com](mailto:abdullahyaqub555@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Abdullah%2C%0A%0A)
 - **WhatsApp**: [+92 334 438 1565](https://wa.me/923344381565)
+- **LinkedIn**: [Abdullah Yaqub](https://www.linkedin.com/in/abdullah-yaqub-385b8121a/)
+- **GitHub**: [AbdullahYaqub72](https://github.com/AbdullahYaqub72)
 
 ## 🏢 Experience
 
 - **Software Engineer** at Dubizzle Labs
-- **Computer Science** graduate from UET Lahore
-- **API Optimization** specialist (60% performance improvement)
+- **Computer Science** graduate from UET Lahore (CGPA 3.82)
+- **API Optimization** specialist with 60% performance improvements
 - **ML & Analytics** experience with recommendation systems
 - **Full-stack** expertise in React, Node.js, Python
 
