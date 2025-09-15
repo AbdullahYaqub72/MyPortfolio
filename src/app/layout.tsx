@@ -8,17 +8,16 @@ export const metadata: Metadata = {
   title: "Abdullah Yaqub — Software Engineer",
   description:
     "Minimal 3D portfolio: backend engineering, scalable systems, analytics, and tasteful UI.",
+  metadataBase: new URL("https://abdullah-portfolio.vercel.app"),
   openGraph: {
     title: "Abdullah Yaqub — Software Engineer",
     description:
       "Portfolio with interactive WebGL hero, selected work, projects, and contact.",
-    url: "https://your-domain.com",
     siteName: "Abdullah Yaqub",
     images: [{ url: "/og.png", width: 1200, height: 630 }],
     locale: "en_US",
     type: "website",
   },
-  metadataBase: new URL("https://your-domain.com"),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -26,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Abdullah Yaqub",
-    url: "https://your-domain.com",
+    url: "https://abdullah-portfolio.vercel.app",
     email: "mailto:abdullahyaqub555@gmail.com",
     sameAs: [
       "https://www.linkedin.com/in/abdullah-yaqub-385b8121a/",
